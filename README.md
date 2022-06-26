@@ -3,7 +3,7 @@ This repo presents an implementation of the basic stats arbitrage in cryptocurre
 
 The code is highly reproducable - even beyond the cryptocurrency market. I made some remarks below on how you can run the strategy on your computer.
 
-You will need to
+One will need to
 1. have an api of asset (not necessarily cryptos) prices
 2. convert this asset price into a pandas dataframe in form of df({'Price':[enter price series for asset A], 'Date':[enter the date]}) - the order can't be exchanged
 3. set an alpha level for stats test, for co-integration and series normality tests - default is 0.05
