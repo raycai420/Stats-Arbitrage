@@ -9,7 +9,9 @@ One will need to
 3. set an alpha level for stats test, for co-integration and series normality tests - default is 0.05
 4. replace get_price function in class: this function will return a tuple (current price for asset A, current price for asset B)
 5. write trade function: see comments for the trade function
+6. delete my api uploading cell (cell 2) unless you are also using api from Huobi Exchange
 
+If you are also using huobi, you will need to find the 'huobi' folder @https://github.com/HuobiRDCenter/huobi_Python/tree/master/huobi. You will also need your own api key & passcode
 
 Note: can get a signal without writing the trade function - the program will produce a .txt file on selected assets. 
 
